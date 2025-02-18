@@ -38,3 +38,13 @@ now if we check git status the files added are staged           //example couple
 to save the project in your repository use command:           // according to example now to click the picture and save it to the album
     git commit -m "message with which you want to same it in your repo"
 
+now again check git status to check the changes        //according to example check if there is any other couple left for the photograph
+
+to add content to the file using cmd use command :
+    vi <filename>
+
+to check the content of the file use command :
+    cat <filename>
+
+to unstage a file use command :
+    git restore --staged <filename>
