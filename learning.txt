@@ -1,0 +1,40 @@
+to create a new file use command :
+    type nul > learning.txt
+
+to get the list of files in current directory use command :
+    ls
+
+to get the list of hidden files use command :
+    ls -hidden
+
+to enter into the current directory use command :
+    cd <directory name>
+
+to keep the record of the project made we use git hub
+repository are created to add projects into it 
+then any changes made to this project by the developer or the contributors to that project can be tracked
+so to add the project to git hub :
+    we first install git in our system 
+    than check if installed by using command : 
+        git -v
+    
+Now we need to initialize git in the folder which we want to add the git hub
+to initialize the project use command :
+    git init
+
+Checking git status will help you to what are the changes made to the project,
+what is present in the history of your project
+to check the status of your project use command :
+    git status
+
+to add the changes or new files to the project use command :
+    git add .       // this will add all the files in the current directory to the repository
+
+to add any specific file use command :
+    git add <filename>
+
+now if we check git status the files added are staged           //example couple is ready on the stage to get the picture clicked
+
+to save the project in your repository use command:           // according to example now to click the picture and save it to the album
+    git commit -m "message with which you want to same it in your repo"
+
