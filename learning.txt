@@ -48,3 +48,47 @@ to check the content of the file use command :
 
 to unstage a file use command :
     git restore --staged <filename>
+
+to see the history of all the commits use command :
+    git log
+to exit from this use command :
+    q
+
+Additional Navigation in Git Log
+Scroll down: Press ↓ (down arrow) or Enter
+Scroll up: Press ↑ (up arrow)
+Exit immediately: Press q
+Search: Press / and type a search term, then press Enter
+Move page by page: Press Space (forward) or b (backward)
+
+
+to remove any file from the folder use command :
+    rm -rf <filename>
+or use command :
+    Remove-Item -Path .\tttt.txt -Force
+
+if you want to delete the folder use command :
+    Remove-Item -Path .\foldername -Recurse -Force
+
+to keep only one commit use command :
+    git reset <commit id generated when git log command is used paste that id here>
+
+if you want to make changes but not commit those changes or put the changes in back stage use command :
+    git stash
+all the changes will be back stagged 
+
+to call the back stagged file back use command :
+    git stash pop 
+
+to remove changes use command :
+    git stash clear
+
+to share your project to people or post it on git hub :
+    1. go to github and create a new repository
+    2. then paste the url using command : 
+            git remote add <url>
+    3.to check which url is attached to your project use command :
+            git remote -v
+    4.now push the project to the set url :
+            git push origin main
+    
