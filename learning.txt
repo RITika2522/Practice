@@ -91,4 +91,15 @@ to share your project to people or post it on git hub :
             git remote -v
     4.now push the project to the set url :
             git push origin main
-    
+
+
+   to clone a someone else's project :
+    1. go to the user's project you want to clone  select fork option 
+    2. than give name to the repository in your account after cloning 
+    3. copy the url of the project you forked to your account  then use command:
+            git clone <paste the url copied>
+
+    now to upstream it use command : 
+        git remote add upstream "Past the url of the project of the owner "
+    check by using :
+        git remote -v
